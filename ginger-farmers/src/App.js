@@ -19,8 +19,8 @@ function App() {
     <div className="App ba shadow-5 bg-green">
       <p className='white'>Plateau Ginger Farmers</p>
       <h3 className='f2 white'>Your current location is: </h3>
-      <h1 className='f4 white'>{ location ? location.lat : null}</h1>
-      <h1 className='f4 white'>{ location ? location.lng : null}</h1>
+      <h1 className='f4 white'>{ `Latitude: ${location ? location.lat : null}`}</h1>
+      <h1 className='f4 white'>{ `Longitude: ${location ? location.lng : null}`}</h1>
     </div>
   );
 }
